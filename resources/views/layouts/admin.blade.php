@@ -11,7 +11,7 @@
 
     <title>SB Admin 2 - Dashboard</title>
 
-  @include('includes.style')
+  @include('includes.admin.style')
 </head>
 
 <body id="page-top">
@@ -27,14 +27,14 @@
             <!-- Main Content -->
             <div id="content">
 
-               @include('includes.navbar')
+               @include('includes.admin.navbar')
 
                @yield('content')
 
             </div>
             <!-- End of Main Content -->
 
-         @include('includes.footer')
+         @include('includes.admin.footer')
 
         </div>
         <!-- End of Content Wrapper -->
@@ -67,7 +67,7 @@
         </div>
     </div>
 
-   @include('includes.script')
+   @include('includes.admin.script')
 
 </body>
 

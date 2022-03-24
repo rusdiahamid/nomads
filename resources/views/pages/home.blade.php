@@ -119,10 +119,10 @@
                 </p>
               </div>
               <div class="col-md-8 text-center">
-                <img src="frontend/images/ana.png" alt="Logo Partners" />
-                <img src="frontend/images/disney.png" alt="Logo Partners" />
-                <img src="frontend/images/shangri-la.png" alt="Logo Partners" />
-                <img src="frontend/images/visa.png" alt="Logo Partners" />
+                <img src="{{ url('frontend/images/ana.png') }}" alt="Logo Partners" />
+                <img src="{{ url('frontend/images/disney.png') }}" alt="Logo Partners" />
+                <img src="{{ url('frontend/images/shangri-la.png') }}" alt="Logo Partners" />
+                <img src="{{ url('frontend/images/visa.png') }}" alt="Logo Partners" />
               </div>
             </div>
           </div>
