@@ -50,7 +50,8 @@
                 Nusa Penida is an island southeast of Indonesia's island Bali and a district of Klungkung Regency that includes the neighbouring small island of Nusa Lembongan. The Badung Strait separates the island and Bali. The interior
                 of Nusa Penida is hilly with a maximum altitude of 524 metres.
               </p>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, unde corporis fugit commodi consequatur dolores possimus laborum odit nobis molestias!</p>
+              <p>Bali and a district of Klungkung Regency that includes the neighbouring small island of 
+                Nusa Lembongan. The Badung Strait separates the island and Bali.</p>
               <div class="features row">
                 <div class="col-md-4">
                   <img src="frontend/images/ic_event.png" alt="" class="features-image" />
