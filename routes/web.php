@@ -25,6 +25,5 @@ Route::get('/detail', [DetailController::class, 'index'])->name('detail');
 Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
 Route::get('/checkout/success', [CheckoutController::class, 'success'])->name('checkout-success');
 
-Route::get('/admin', [DashboardController::class, 'index'])->name('admin.dashboard')->middleware('auth, admin');
-
-Auth::routes();
+Route::get('/admin', [DashboardController::class, 'index'])->name('admin.dashboard')->middleware('auth', 'admin');
+Auth::routes(['verify' => true]);
